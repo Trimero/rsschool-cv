@@ -4,10 +4,13 @@
 [Instagram](https://www.instagram.com/russsssa/) 
 
 [Telegram](https://t.me/trimero)
-****
+
+---
 
 I am 29 years old. I want to become a front end developer.Graduated from the GSU with a degree in IT engineering and never worked in his specialty. Ready to discover something new.
-****
+
+---
+
 Studied Java for about 3 months and nothing worked, so my code example is very simple.
 
 ```
@@ -27,5 +30,7 @@ Studied Java for about 3 months and nothing worked, so my code example is very s
 Haven't worked in IT yet...
 
 In 2015 graduated from Gomel State University named after Francysk Skaryna.
-****
+
+---
+
 According to the European system, my level  English is **A1**
