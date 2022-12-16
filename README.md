@@ -1,1 +1,1 @@
-# rsschool-cv
+https://trimero.github.io/rsschool-cv/
