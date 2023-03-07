@@ -14,7 +14,8 @@ I am 30 years old. I want to become a front end developer.Graduated from the GSU
 
 I studied Java for about 3 months and nothing worked. Now I have been studying Front end for more than 3 months, and I can write a website with the simplest functionality.
 
-```function burgerOpen() {
+```
+function burgerOpen() {
         document.body.style.overflowX = "hidden";
         close_bg.classList.toggle("active")
         close_burger.classList.toggle("active")
