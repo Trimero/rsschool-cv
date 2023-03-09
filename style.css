@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+    --function-color: #3432a1;
+}
+:root {
+    --agr-color: #d5d68a;
+}
+:root {
+    --syntax-color: #ffd900;
+}
+
+:root {
+    --purple-color: #730b9c;
+}
+body {
+    background: #fffaee;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+  }
+
+.link {
+        text-decoration: none;
+        font-size: 22px;
+        font-family: "Inika", serif;
+        transition: 0.3s;
+        line-height: 50px;
+        color: #010201;
+        font-style: normal;
+        font-weight: 400;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 140px;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 20px;
+    font-family: "Inter", sans-serif;
+    color: #db6300;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 20px;
+    font-family: "Inter", sans-serif;
+    color: #db6300;
+}
+
+p {
+    margin: 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: "Inter", sans-serif;
+    color: #2c2c2c;
+}
+
+.link:hover {
+    color: #ff6600;
+    font-size: 26px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.avatar img {
+    border-radius: 25%;
+    width: 100%;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 30px;
+}
+
+.education_projects {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+}
+
+.link-project {
+    text-decoration: none;
+}
+
+.projects ul li {
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: "Inter", sans-serif;
+    color: #2c2c2c;
+}
+
+.my-skills {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+}
+
+.my-skills pre {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts ul {
+    display: flex;
+    padding: 0;
+    gap: 60px;
+}
+
+.icons {
+    width: 60px;
+    height: 60px;
+}
+
+.footer-img {
+    max-width: 50px;
+    width: 100%;
+}
+
+.footer {
+    padding: 20px 50px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+}
