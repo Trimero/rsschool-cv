@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Rusakov Sergey</title>
+    <link rel="icon" href="./items/favicon.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="nav-bar">
+                <ul>
+                    <li><a class="link" href="#anchor_about-me">About me</a></li>
+                    <li><a class="link" href="#anchor_education">Education and My projects</a></li>
+                    <li><a class="link" href="#anchor_skills">My skills</a></li>
+                    <li><a class="link" href="#anchor_contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="about" id="anchor_about-me">
+                <div class="avatar"><img src="https://avatars.githubusercontent.com/u/118251256?v=4" alt="avatar"></div>
+                <div class="about-me">
+                    <h1>Sergey Rusakov</h1>
+                    <p>I am 30 years old. I want to become a front end developer.Graduated from the GSU with a degree in
+                        IT engineering and never worked in his specialty. Ready to discover something new.</p>
+                </div>
+            </section>
+            <section class="education_projects" id="anchor_education">
+                <div class="education">
+                    <h2>Education</h2>
+                    <p>I studied Java for about 3 months and nothing worked. Now I have been studying Front end for more
+                        than 3 months, and I can write a website with the simplest functionality. In 2015 graduated from
+                        Gomel State University named after Francysk Skaryna. According to the European system, my level
+                        English is A1</p>
+                </div>
+                <div class="projects">
+                    <ul>
+                        <li><a class="link-project" href="https://trimero.github.io/rsschool-cv/" target="_blank">This
+                                is my first project, my CV made as part of an assignment at rs school</a></li>
+                        <li><a class="link-project"
+                                href="https://rolling-scopes-school.github.io/trimero-JSFEPRESCHOOL2022Q4/plants/"
+                                target="_blank">
+                                My second project in which I first implemented JS code for a burger menu and other
+                                things</a></li>
+                        <li><a class="link-project"
+                                href="https://rolling-scopes-school.github.io/trimero-JSFEPRESCHOOL2022Q4/momentum/"
+                                target="_blank">The final project of the preparatory course, consisting mainly of JS
+                                code</a></li>
+                    </ul>
+                </div>
+            </section>
+            <div class="my-skills" id="anchor_skills">
+                <h2>Skills</h2>
+                <p>Today I have knowledge of html, basic knowledge of css and js. In the upcoming course, I want to
+                    learn more about preprocessors and working with DOM/Events.</p>
+                <p>An example of the simplest when to implement a burger</p>
+                <pre>
+            function burgerOpen() {
+                document.body.style.overflowX = "hidden";
+                close_bg.classList.toggle("active");
+                close_burger.classList.toggle("active");
+                burger.classList.toggle("active");
+            }
+        </pre>
+            </div>
+            <section class="contacts" id="anchor_contacts">
+                <div class="contact">
+                    <h2>Contacts</h2>
+                    <ul>
+                        <li><a href="https://www.instagram.com/russsssa/" target="_blank"><img class="icons"
+                                    src="./items/inst.png" alt="instagram"></a></li>
+                        <li><a href="https://www.facebook.com/sergey.rusakov.12" target="_blank"><img class="icons"
+                                    src="./items/facebook.png" alt="facebook"></a></li>
+                        <li><a href="https://t.me/trimero" target="_blank"><img class="icons" src="./items/tg.png"
+                                    alt="telegram"></a></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <ul>
+                <li><a class="link_footer" href="https://github.com/Trimero" target="_blank"><img class="footer-img"
+                            src="./items/gh.png" alt="github"></a></li>
+                <li>
+                    <p>Rusakov Sergey 2023</p>
+                </li>
+                <li><a class="link_footer" href="https://rs.school/js-stage0/" target="_blank"><img class="footer-img"
+                            src="./items/rss.svg" alt="rss"></a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
